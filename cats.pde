@@ -1,7 +1,8 @@
 import g4p_controls.*;
 
-JSONObject data;
-Button[] buttons;
+JSONArray catData;
+JSONObject cat;
+Cat[] cats;
 int numberOfCats = 28;
 String word;
 
@@ -20,7 +21,7 @@ void setup() {
   size(457,722);
   map = loadImage("map.png");
   
-  catData = loadJSONObject("cats.json");
+  JSONstuff();
   
   String pinkCat = "pinkButton1.png";
   catButton1 = loadImage(pinkCat);
@@ -32,29 +33,19 @@ void setup() {
   for (int i = 0; i < coords.length; i+=2) {
     drawSymbol(coords[i], coords[i+1]);  
   }
+  
+  println(cats.length); // good
 }
 
 void draw() {
   fill(0);
-  rect(0,0,50,50);
-  
+  rect(0,0,50,50); 
   fill(#1D94F2);
   textSize(15);
   text(pmouseX, 15, 20);
   text(pmouseY, 15, 40);
   
-  //println(numberOfEntries("Name:"));
 }
-
-
-//int numberOfEntries(String word) {
-//  for (String s: catData) {
-//    if(s.equals(word)) {
-//      numberOfCats++;
-//    }
-//  }
-//  return numberOfCats;
-//}
 
 //String findData(String start, String end) {
 //  int startIndex = catData.indexOf(start);
@@ -62,12 +53,36 @@ void draw() {
 //  return catData.substring(startIndex + start.length(), endIndex);
 //}
 
+void JSONstuff() {
+  JSONObject data = loadJSONObject("cats.json");
+  catData = data.getJSONArray("cats");
+  
+  cats = new Cat[catData.size()];
+  
+  for (int i = 0; i < catData.size(); i++) {
+    for (int j = 0; j < coords.length; j+=2){
+      JSONObject cat = catData.getJSONObject(i);
+      String name = cat.getString("Name");
+      String location = cat.getString("Location");
+      String pattern = cat.getString("Pattern");
+      String age = cat.getString("Age");
+      String personality = cat.getString("Personality");
+      
+      cats[i] = new Cat(name, location, pattern, age, personality, coords[j], coords[j+1]);
+    }  
+  }
+}
+
 void drawSymbol(float x, float y) {
   button = new GImageButton(this, x - 15, y - 15, catButtons);
 }
 
 void handleButtonEvents(GImageButton button, GEvent event) {
-  if (button && event == GEvent.CLICKED) {
-    
+  if (button == button && event == GEvent.CLICKED) {
+    for (int i = 0; i < coords.length; i+=2) {
+      if (pmouseX < coords[i] + 15 && pmouseX > coords[i] - 15 && pmouseY < coords[i + 1] + 15 && pmouseX > coords[i + 1] - 15) {
+        
+      }
+    }
   }
 }

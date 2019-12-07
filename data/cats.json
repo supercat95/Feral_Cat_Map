@@ -3,7 +3,7 @@
 		{
 			"Name": "Gray Grizzly",
 			"Location": "Gamma Phi House",
-			"Color": "Gray Tabby",
+			"Pattern": "Gray Tabby",
 			"Age": "very old",
 			"Personality": "Keeps his distance except for when he's hungry, then he'll stand behind you and meow until you leave! Sometimes can be found in a tree. Is visually impaired."
 		},
@@ -12,7 +12,7 @@
 		{
 			"Name": "Scout",
 			"Location": "Hughes-Trigg",
-			"Color": "Brown Tabby with White on Face",
+			"Pattern": "Brown Tabby with White on Face",
 			"Age": "middle-aged",
 			"Personality": "Shy boy"
 		},
@@ -20,7 +20,7 @@
 		{
 			"Name": "Pluto",
 			"Location": "Simmons",
-			"Color": "Gray and White",
+			"Pattern": "Gray and White",
 			"Age": "middle-aged",
 			"Personality": "Can occasionally be seen roaming"
 		},
@@ -28,7 +28,7 @@
 		{
 			"Name": "Simba",
 			"Location": "Maguire",
-			"Color": "Orange Tabby with White under Chin",
+			"Pattern": "Orange Tabby with White under Chin",
 			"Age": "very old",
 			"Personality": "Partially deaf and usually stays in the bushes, but recognizes feeders and waits for them. Sometimes is very chatty."
 		},
@@ -36,7 +36,7 @@
 		{
 			"Name": "Snickers",
 			"Location": "Maguire",
-			"Color": "Brown Tortie Tabby",
+			"Pattern": "Brown Tortie Tabby",
 			"Age": "old",
 			"Personality": "Moved from Crow to keep Simba company in his lonely old age. Is finnicky and runs from people."
 		},
@@ -44,7 +44,7 @@
 		{
 			"Name": "Tiffany",
 			"Location": "Meadows Museum",
-			"Color": "Silver Tabby",
+			"Pattern": "Silver Tabby",
 			"Age": "very old",
 			"Personality": "Waits for feeders, tries to trip them, sometimes tolerates petting"
 		},
@@ -52,7 +52,7 @@
 		{
 			"Name": "Torti Mama",
 			"Location": "Dedman Fitness",
-			"Color": "Tortie",
+			"Pattern": "Tortie",
 			"Age": "old",
 			"Personality": "Not always seen, but occasionally follows feeders. Usually does not allow petting."
 		},
@@ -60,7 +60,7 @@
 		{
 			"Name": "Shyla",
 			"Location": "Dedman Fitness",
-			"Color": "Cream Tabby",
+			"Pattern": "Cream Tabby",
 			"Age": "old",
 			"Personality": "Doesn't mind people but is mostly interested in the food."
 		},
@@ -68,7 +68,7 @@
 		{
 			"Name": "Garfield",
 			"Location": "Dedman Fitness",
-			"Color": "Long Hair Orange Tabby",
+			"Pattern": "Long Hair Orange Tabby",
 			"Age": "old",
 			"Personality": "Enjoys sunning on the shelters."
 		},
@@ -76,7 +76,7 @@
 		{
 			"Name": "Finn",
 			"Location": "Dedman Fitness",
-			"Color": "Gray Tabby",
+			"Pattern": "Gray Tabby",
 			"Age": "unknown",
 			"Personality": "Elusive!"
 		},
@@ -84,7 +84,7 @@
 		{
 			"Name": "Ringo",
 			"Location": "Dedman Fitness",
-			"Color": "Long Hair Brownish Gray Tabby with White Bib",
+			"Pattern": "Long Hair Brownish Gray Tabby with White Bib",
 			"Age": "unknown",
 			"Personality": "Elusive!"
 		},
@@ -92,7 +92,7 @@
 		{
 			"Name": "Sammy",
 			"Location": "Blanton Side",
-			"Color": "Black (Fat)",
+			"Pattern": "Black (Fat)",
 			"Age": "middle-aged",
 			"Personality": "Often waits for pets and snacks on top of a pillar, but also roams."
 		},
@@ -100,7 +100,7 @@
 		{
 			"Name": "Pereza",
 			"Location": "Blanton Side",
-			"Color": "Orange Tabby",
+			"Pattern": "Orange Tabby",
 			"Age": "middle-aged",
 			"Personality": "Enjoys sunning on the shelters. Was a momma."
 		},
@@ -108,7 +108,7 @@
 		{
 			"Name": "Laura Phi",
 			"Location": "Blanton Front",
-			"Color": "Black & White",
+			"Pattern": "Black & White",
 			"Age": "middle-aged",
 			"Personality": "Mostly comes out at night."
 		},
@@ -116,7 +116,7 @@
 		{
 			"Name": "Precious",
 			"Location": "Dawson-Dyer Court",
-			"Color": "Black",
+			"Pattern": "Black",
 			"Age": "young",
 			"Personality": "Runs up to feeders and demands chin scratches! Very snuggly with Sassy."
 		},
@@ -124,7 +124,7 @@
 		{
 			"Name": "Tiger",
 			"Location": "Dawson-Dyer Court",
-			"Color": "Orange Tabby",
+			"Pattern": "Orange Tabby",
 			"Age": "old",
 			"Personality": "Generally keeps his distance but will approach for food."	
 		},
@@ -132,7 +132,7 @@
 		{
 			"Name": "Sassy",
 			"Location": "Dawson-Dyer Court",
-			"Color": "Brown Tabby",
+			"Pattern": "Brown Tabby",
 			"Age": "young",
 			"Personality": "Runs up to feeders and demands chin scratches! Very snuggly with Precious."
 		},
@@ -140,7 +140,7 @@
 		{
 			"Name": "Amal",
 			"Location": "Dawson-Dyer Court",
-			"Color": "Long Hair White Brown Tabby",
+			"Pattern": "Long Hair White Brown Tabby",
 			"Age": "old",
 			"Personality": "The most elusive of the Dawson-Dyer clan, but is typically very chatty when she does come out."
 		},
@@ -148,7 +148,7 @@
 		{
 			"Name": "Damien",
 			"Location": "Fondren Science",
-			"Color": "Long Hair Black",
+			"Pattern": "Long Hair Black",
 			"Age": "middle-aged",
 			"Personality": "Likes to wander around the science buildings, the grassy area outside Airline Garage, and hide in bushes."
 		},
@@ -156,7 +156,7 @@
 		{
 			"Name": "Skeeter",
 			"Location": "Fondren Science",
-			"Color": "Siamese",
+			"Pattern": "Siamese",
 			"Age": "middle-aged",
 			"Personality": "Believed to have passed away, but then returned after several months of no appearances! We're still confused."
 		},
@@ -164,7 +164,7 @@
 		{
 			"Name": "Legend",
 			"Location": "Law School",
-			"Color": "Brown Tabby",
+			"Pattern": "Brown Tabby",
 			"Age": "unknown",
 			"Personality": "Elusive!"
 		},
@@ -172,7 +172,7 @@
 		{
 			"Name": "London",
 			"Location": "Law School",
-			"Color": "Black",
+			"Pattern": "Black",
 			"Age": "unknown",
 			"Personality": "Elusive!"
 		},
@@ -180,7 +180,7 @@
 		{
 			"Name": "Liberty",
 			"Location": "Law School",
-			"Color": "Black & White Long Hair",
+			"Pattern": "Black & White Long Hair",
 			"Age": "unknown",
 			"Personality": "Elusive!"
 		},
@@ -188,7 +188,7 @@
 		{
 			"Name": "Lola",
 			"Location": "Law School",
-			"Color": "Russian Blue",
+			"Pattern": "Russian Blue",
 			"Age": "unknown",
 			"Personality": "Elusive!"
 		},
@@ -196,7 +196,7 @@
 		{
 			"Name": "Mona",
 			"Location": "Fondren Library East",
-			"Color": "Gray & White Long Hair",
+			"Pattern": "Gray & White Long Hair",
 			"Age": "middle-aged",
 			"Personality": "Is fairly territorial and even asserts her dominance at other stations."
 		},
@@ -204,7 +204,7 @@
 		{
 			"Name": "Rousseau",
 			"Location": "Fondren Library West",
-			"Color": "Dilute Tortie",
+			"Pattern": "Dilute Tortie",
 			"Age": "unknown",
 			"Personality": "Elusive!"
 		},
@@ -212,7 +212,7 @@
 		{
 			"Name": "Dewey",
 			"Location": "Fondren Library West",
-			"Color": "Gray & White Long Hair Tux with White Feet",
+			"Pattern": "Gray & White Long Hair Tux with White Feet",
 			"Age": "unknown",
 			"Personality": "Elusive!"
 		},
@@ -220,7 +220,7 @@
 		{
 			"Name": "Tails",
 			"Location": "Carr Collins",
-			"Color": "Black & White",
+			"Pattern": "Black & White",
 			"Age": "unknown",
 			"Personality": "Outgoing and friendly! Loves to lounge under the big tree!"
 		}
