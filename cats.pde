@@ -1,13 +1,14 @@
 import g4p_controls.*;
 
-String catData[];
+JSONObject data;
+Button[] buttons;
 int numberOfCats = 28;
 String word;
 
 PImage map;
-PImage cat1;
-PImage cat2;
-String[] cats;
+PImage catButton1;
+PImage catButton2;
+String[] catButtons;
 
 int[] coords = {378,19, 199,271, 300,155, 173,311, 143,570, 340,541, 254,368, 291,366, 372,289, 189,71, 99,381, 97,95, 35,84, 215,194, 229,188};
 
@@ -19,14 +20,13 @@ void setup() {
   size(457,722);
   map = loadImage("map.png");
   
-  catData = loadStrings("cats.xml");
+  catData = loadJSONObject("cats.json");
   
   String pinkCat = "pinkButton1.png";
-  cat1 = loadImage(pinkCat);
+  catButton1 = loadImage(pinkCat);
   String greenCat = "greenButton1.png";
-  cat2 = loadImage(greenCat);
-  cats = new String[]{pinkCat, greenCat};
-
+  catButton2 = loadImage(greenCat);
+  catButtons = new String[]{pinkCat, greenCat};
 
   background(map);
   for (int i = 0; i < coords.length; i+=2) {
@@ -35,10 +35,6 @@ void setup() {
 }
 
 void draw() {
-  //background(map);
-  //for (int i = 0; i < coords.length/2; i++) {
-  //  drawSymbol(coords[i], coords[i+1]);
-  //}
   fill(0);
   rect(0,0,50,50);
   
@@ -60,12 +56,18 @@ void draw() {
 //  return numberOfCats;
 //}
 
-String findData(String string, String start, String end) {
-  int startIndex = string.indexOf(start);
-  int endIndex = string.indexOf(end, startIndex);
-  return string.substring(startIndex + start.length(), endIndex);
-}
+//String findData(String start, String end) {
+//  int startIndex = catData.indexOf(start);
+//  int endIndex = catData.indexOf(end, startIndex);
+//  return catData.substring(startIndex + start.length(), endIndex);
+//}
 
 void drawSymbol(float x, float y) {
-  button = new GImageButton(this, x - 15, y - 15, cats);
+  button = new GImageButton(this, x - 15, y - 15, catButtons);
+}
+
+void handleButtonEvents(GImageButton button, GEvent event) {
+  if (button && event == GEvent.CLICKED) {
+    
+  }
 }
