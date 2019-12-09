@@ -151,12 +151,9 @@ void drawSymbol(float x, float y) {
 
 //----------------------------------------------------------
 void handleButtonEvents(GImageButton button, GEvent event) {
-  //if (button == button && event == GEvent.CLICKED) {
-    for (int i = 0; i < cats.length; i++) {
-      if (pmouseX <= cats[i].xPos + 15 && pmouseX >= cats[i].xPos - 15) {
-        println(cats[i].location);
-      }
+  for (int i = 0; i < cats.length; i++) {
+    if (pmouseX <= cats[i].xPos + 15 && pmouseX >= cats[i].xPos - 15 && pmouseY <= cats[i].yPos + 15 && pmouseY >= cats[i].yPos - 15) {
+      println(cats[i].location);
     }
-  //}
-  println(cats[0].xPos, cats[0].yPos);
+  }
 }

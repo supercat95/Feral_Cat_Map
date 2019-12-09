@@ -20,7 +20,7 @@ class Cat {
   }
   
   //==========================================================
-  float set_xPos(float x) {
+  void set_xPos(float x) {
     xPos = x;
   }
   
@@ -28,7 +28,7 @@ class Cat {
     return xPos;
   }
   //----------------------------------------------------------
-  float set_yPos(float y) {
+  void set_yPos(float y) {
     yPos = y;
   }
   
