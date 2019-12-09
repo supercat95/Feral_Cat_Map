@@ -9,14 +9,12 @@ class Cat {
   String age;
   String personality;
   
-  Cat(String a, String b, String c, String d, String e) { //, float f, float g) {
+  Cat(String a, String b, String c, String d, String e) {
     name = a;
     location = b;
     pattern = c;
     age = d;
     personality = e;
-    //xPos = f;
-    //yPos = g;
   }
   
   //==========================================================
@@ -37,12 +35,7 @@ class Cat {
   }
   //----------------------------------------------------------
   void displayData() {
-    //fill(255);
-  //stroke(0,0,255);
-  //translate(xPos, yPos)
-  //rect(button.getX(), button.getY(), 100, 100);
-  //fill(0);
-  //text(this.name, this.xPos, this.yPos);
+    println(this.name + " is " + this.pattern + " and is " + this.age + " and is " + this.personality); 
   }
   
 } // end of Cat class

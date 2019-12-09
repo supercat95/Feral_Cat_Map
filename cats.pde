@@ -31,26 +31,18 @@ void setup() {
     fill(0);
   // figure out how many cats are at each location, then text(num, coords[i], coords[i+1);
   }
-  
-  println(cats.length); // good
 }
 
 void draw() {
-  fill(0);
-  rect(0,0,50,50); 
-  fill(#1D94F2);
+  //fill(0);
+  //rect(0,0,50,50); 
+  //fill(#1D94F2);
   textSize(15);
-  text(pmouseX, 15, 20);
-  text(pmouseY, 15, 40);
+  //text(pmouseX, 15, 20);
+  //text(pmouseY, 15, 40);
   
 }
 //==========================================================
-//String findData(String start, String end) {
-//  int startIndex = catData.indexOf(start);
-//  int endIndex = catData.indexOf(end, startIndex);
-//  return catData.substring(startIndex + start.length(), endIndex);
-//}
-
 void JSONstuff() {
   JSONObject data = loadJSONObject("cats.json");
   catData = data.getJSONArray("cats");
@@ -153,7 +145,9 @@ void drawSymbol(float x, float y) {
 void handleButtonEvents(GImageButton button, GEvent event) {
   for (int i = 0; i < cats.length; i++) {
     if (pmouseX <= cats[i].xPos + 15 && pmouseX >= cats[i].xPos - 15 && pmouseY <= cats[i].yPos + 15 && pmouseY >= cats[i].yPos - 15) {
-      println(cats[i].location);
+      println("Cats living at " + cats[i].location + ": " + cats[i].name);
+      cats[i].displayData();
     }
   }
+  println("\n");
 }
