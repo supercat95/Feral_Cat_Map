@@ -223,6 +223,21 @@
 			"Pattern": "Black & White",
 			"Age": "unknown",
 			"Personality": "Outgoing and friendly! Loves to lounge under the big tree!"
+		},
+			
+		{
+			"Name": "Mars",
+			"Location": "Mary Hay",
+			"Pattern": "Black & White",
+			"Age": "unknown",
+			"Personality": "Elusive!"
+		},
+
+		{	"Name": "Gray Ghost",
+			"Location": "Mary Hay",
+			"Pattern": "Gray & White",
+			"Age": "unkown",
+			"Personality": "Elusive!"
 		}
 	]
 }
